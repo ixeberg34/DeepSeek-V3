@@ -267,6 +267,7 @@ python fp8_cast_bf16.py --input-fp8-hf-path /path/to/fp8_weights --output-bf16-h
 
 #### System Requirements
 
+<<<<<<< HEAD
 > [!NOTE] 
 > Linux with Python 3.10 only. Mac and Windows are not supported.
 
@@ -277,6 +278,16 @@ triton==3.0.0
 transformers==4.46.3
 safetensors==0.4.5
 ```
+=======
+OS: Linux (Mac, Windows are currently not supported)
+
+- Python 3.10
+- PyTorch 2.4.1
+- Transformers 4.46.3
+- Safetensors 0.4.5
+- Triton 3.0.0
+
+>>>>>>> 53b055b (docs: Add system requirements for DeepSeek-Infer demo)
 #### Model Weights & Demo Code Preparation
 
 First, clone our DeepSeek-V3 GitHub repository:
